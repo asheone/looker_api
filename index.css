@@ -1,0 +1,162 @@
+#visContainer {
+    font-family: -apple-system, Roboto, 'Noto Sans JP', 'Noto Sans CJK KR',
+    'Noto Sans Arabic UI', 'Noto Sans Devanagari UI', 'Noto Sans Hebrew',
+    'Noto Sans Thai UI', 'Helvetica', 'Arial', 'Inconsolata' sans-serif ;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+
+#tooltip {
+    position: absolute;
+    width: auto;
+    height: auto;
+    padding: 5px;
+    background-color: white;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    -webkit-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+    pointer-events: none;
+    font-family: sans-serif;
+    font-size: 12px;
+    z-index: 2;
+}
+
+.tooltipTable {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    'Noto Sans JP', 'Noto Sans CJK KR',
+    'Noto Sans Arabic UI', 'Noto Sans Devanagari UI', 'Noto Sans Hebrew',
+    'Noto Sans Thai UI', 'Helvetica', 'Arial', 'Inconsolata' sans-serif ;
+    border: 0px;
+    border-collapse: collapse;
+    table-layout: auto;
+}
+
+.focus {
+    font-weight: bold;
+}
+
+.hidden {
+    display: none;
+}
+
+.hover {
+    background-color: #ffffbb;
+}
+
+.reportTable {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    'Noto Sans JP', 'Noto Sans CJK KR',
+    'Noto Sans Arabic UI', 'Noto Sans Devanagari UI', 'Noto Sans Hebrew',
+    'Noto Sans Thai UI', 'Helvetica', 'Arial', 'Inconsolata' sans-serif ;
+    border-collapse: separate;
+    border-spacing: 3px;
+    table-layout: fixed;
+}
+
+th.headerCell {
+    border-bottom: 1px solid #000000 !important;
+    font-weight: bold;
+    padding: 5px;
+
+    background: rgb(56,94,157);
+    color: white;
+}
+
+.headerCell.merged {
+    text-align: center !important;
+    background-color: #ffffff !important;
+}
+
+.headerCell.transposed.dimension.merged {
+    text-align: center !important;
+    background-color: #ffffff !important;
+}
+
+.indexCell.transposed {
+    font-weight: bold;
+}
+
+.indexCell.transposed.merged {
+    background-color: #ffffff !important;
+}
+
+.rowCell {
+    vertical-align: super;
+    padding-left: 5px;
+}
+
+.rowCell.merged {
+    background-color: #ffffff !important;
+}
+
+.rowCell.transposed.dimension.merged {
+    background-color: #ffffff !important;
+}
+
+.nonNumeric {
+    text-align: left;
+}
+
+.numeric {
+    text-align: right;
+}
+
+.negative {
+    color: red;
+}
+
+.estimate {
+    color: darkgray !important;
+}
+
+.singleIndex {
+    padding-left: 15px !important;
+}
+
+.subtotal {
+    font: 'Inconsolata'
+    font-style: italic;
+    font-weight: bold !important;
+    background: #d4e1ff;
+}
+
+.total {
+    border-top: 2px solid #000000;
+    font-weight: bold !important;
+}
+
+.total.transposed {
+    border-top: 0px !important;
+}
+
+.dimension.transposed {
+    font-weight: bold;
+}
+
+.rectElem.animated {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    'Noto Sans JP', 'Noto Sans CJK KR',
+    'Noto Sans Arabic UI', 'Noto Sans Devanagari UI', 'Noto Sans Hebrew',
+    'Noto Sans Thai UI', 'Helvetica', 'Arial', 'Inconsolata' sans-serif ;
+    padding: 4px;
+}
+
+.headerCell.animated {
+    border-bottom: 4px solid #ffffff;
+    box-shadow: inset 0px -1px 0px 0px #000000 !important;
+    font-weight: bold;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+div.header.ag-header-cell {
+    background: rgb(56,94,157);
+    color: white;
+}
